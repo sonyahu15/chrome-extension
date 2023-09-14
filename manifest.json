@@ -1,1 +1,15 @@
-
+{
+    "manifest_version": 3,
+    "name": "Meow",
+    "version": "1.0",
+    "description": "See if it's raining cats & cats",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "content_scripts": [
+        {
+            "css": ["styles.css"],
+            "js": ["main.js"]
+        }
+    ]
+}
