@@ -9,7 +9,20 @@
     "content_scripts": [
         {
             "css": ["styles.css"],
-            "js": ["main.js"]
+            "js": ["main.js"],
+            "matches": ["<all_urls>"]
         }
-    ]
+    ],
+    "icons": {
+        "16": "cat16.png",
+        "32": "cat32.png",
+        "48": "cat48.png",
+        "128": "cat128.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "cat16.png",
+            "32": "cat32.png"
+        }
+    }
 }
